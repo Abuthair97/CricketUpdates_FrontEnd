@@ -11,5 +11,5 @@ import {MatchCardsComponent} from "./components/match-cards/match-cards.componen
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'CricBuzz';
+  title = 'CricketUpdates';
 }
