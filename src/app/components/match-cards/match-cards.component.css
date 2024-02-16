@@ -1,0 +1,27 @@
+.cardList{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.card {
+  max-width: 400px;
+  /*max-height: 400px;*/
+  padding: 20px 20px;
+}
+.title{
+  font-size: 10px;
+}
+.score{
+  padding:30px
+}
+.scoreCard{
+  padding: 0 30px;
+}
+
+.match-score-card{
+  padding: 0 20px;
+  font-size: 12px;
+  color: red;
+}
+
+
+

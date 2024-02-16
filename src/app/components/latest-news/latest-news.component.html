@@ -1,0 +1,19 @@
+<div class="latest">
+
+  @for(latest of latestNews ; track  $index){
+    <div class="latestNews">
+      <div >
+        <img src="{{latest.photoUrl}}" alt="" srcset="">
+      </div>
+      <div class="latestContent">
+        <p>{{latest.photoHeading}}</p>
+        <p>{{latest.photoIntro}}</p>
+        <p>{{latest.photoDesc}}</p>
+
+        <span>{{latest.photoTime}}</span>
+      </div>
+    </div>
+
+  }
+
+</div>
